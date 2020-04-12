@@ -1,12 +1,12 @@
 #pragma warning disable 1591
-using DotnetSwaggerDocumentation.API.Extensions;
+using API.WithoutAuthentication.Extensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace DotnetSwaggerDocumentation.API
+namespace API.WithoutAuthentication
 {
     public class Startup
     {

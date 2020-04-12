@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace DotnetSwaggerDocumentation.API
+namespace API.WithoutAuthentication
 {
     public class Program
     {

@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace DotnetSwaggerDocumentation.API.Controllers
+namespace API.WithoutAuthentication.Controllers
 {
     /// <summary>
     /// List the weather forecasts.

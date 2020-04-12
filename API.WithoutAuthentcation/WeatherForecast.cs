@@ -1,7 +1,7 @@
 #pragma warning disable 1591
 using System;
 
-namespace DotnetSwaggerDocumentation.API
+namespace API.WithoutAuthentication
 {
     public class WeatherForecast
     {

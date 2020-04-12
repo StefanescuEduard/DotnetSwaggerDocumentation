@@ -7,7 +7,7 @@ using System;
 using System.IO;
 using System.Reflection;
 
-namespace DotnetSwaggerDocumentation.API.Extensions
+namespace API.WithoutAuthentication.Extensions
 {
     public static class SwaggerDocumentationExtensions
     {
