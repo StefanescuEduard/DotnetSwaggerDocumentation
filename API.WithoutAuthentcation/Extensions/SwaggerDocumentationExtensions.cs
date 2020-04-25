@@ -15,8 +15,8 @@ namespace API.WithoutAuthentication.Extensions
         {
             services.AddSwaggerGen(options =>
             {
-                options.SwaggerDoc(name: "contoso",
-                    new OpenApiInfo { Title = "Contoso API", Version = "v1" });
+                options.SwaggerDoc(name: "acme",
+                    new OpenApiInfo { Title = "Acme API", Version = "v1" });
 
                 string xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
                 string xmlFilePath = Path.Combine(AppContext.BaseDirectory, xmlFile);
@@ -32,7 +32,7 @@ namespace API.WithoutAuthentication.Extensions
             app.UseSwagger();
             app.UseSwaggerUI(options =>
             {
-                options.SwaggerEndpoint("/swagger/contoso/swagger.json", "Contoso API v1");
+                options.SwaggerEndpoint("/swagger/acme/swagger.json", "Acme API v1");
                 options.DocExpansion(DocExpansion.None);
             });
 
